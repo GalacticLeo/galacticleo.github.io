@@ -40,7 +40,7 @@ function onManualInteract() {
 	
 	killsPerMinute = kills / minutes;
 
-  if(minutes > 0.5) {
+  if(minutes > 2) {
     document.querySelector("#ManualXPKill").classList.add("btn-success");
     /*if(!reset){
       document.querySelector("#manual-group").appendChild(createButtonBootstrap());
