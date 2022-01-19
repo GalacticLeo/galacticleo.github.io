@@ -12,7 +12,7 @@ function updateTime() {
 
 function getUTC8Date() {
   let utcDate = new Date();
-  utcDate.setHours(utcDate.getHours() + 8);
+  utcDate.setHours(utcDate.getHours() + 3);
   return utcDate;
 }
 
